@@ -42,7 +42,6 @@ func topWords(path string, numWords int, charThreshold int) []WordCount {
 	}
 	sortWordCounts(wc)
 	return wc[:numWords]
-	// HINT: To keep only alphanumeric characters, use the regex "[^0-9a-zA-Z]+"
 }
 
 // A struct that represents how many times a word is observed in a document
